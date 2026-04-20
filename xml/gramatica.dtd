@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT rutina (ejercicio+)>
+<!ATTLIST rutina 
+          musculo CDATA #REQUIRED
+          nivel (principiante|intermedio|avanzado) "intermedio">
+
+<!ELEMENT ejercicio (carga?, series, pausa?)>
+<!ATTLIST ejercicio nombre CDATA #REQUIRED>
+
+<!ELEMENT carga (#PCDATA)>
+<!ATTLIST carga unidad (kg|libras|porcentaje) "kg">
+
+<!ELEMENT series (instruccion+)>
+<!ATTLIST series cantidad CDATA #REQUIRED>
+
+<!ELEMENT instruccion (#PCDATA)>
+<!ATTLIST instruccion tipo (repeticion|estado_fallo) #REQUIRED>
+
+<!ELEMENT pausa (#PCDATA)>
+<!ATTLIST pausa unidad CDATA #FIXED "segundos">

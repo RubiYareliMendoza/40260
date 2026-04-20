@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rutina SYSTEM "gymscript.dtd">
+
+<rutina musculo="Pectoral" nivel="avanzado">
+    
+    <ejercicio nombre="Press de Banca">
+        <carga unidad="kg">80</carga>
+        <series cantidad="4">
+            <instruccion tipo="repeticion">10 repeticiones controladas</instruccion>
+            <instruccion tipo="estado_fallo">Si falla, reducir carga 20%</instruccion>
+        </series>
+        <pausa unidad="segundos">90</pausa>
+    </ejercicio>
+
+    <ejercicio nombre="Aperturas con mancuernas">
+        <carga unidad="kg">15</carga>
+        <series cantidad="3">
+            <instruccion tipo="repeticion">12 repeticiones</instruccion>
+        </series>
+        <pausa unidad="segundos">60</pausa>
+    </ejercicio>
+
+</rutina>
