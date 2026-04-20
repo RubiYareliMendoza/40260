@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE direccion SYSTEM "xml-00.dtd">
+<direccion>
+    <nombrecompleto>
+        <nombre>Rubi Yareli</nombre>
+        <apellidos>Mendoza Alarcon</apellidos>
+    </nombrecompleto>
+    <correo>mrubi1767@gmail.com</correo>
+    <telefono>2281109277</telefono>
+    <cumple>
+        <dia>1</dia>
+        <mes>1</mes>
+        <anio>1</anio>
+    </cumple>
+</direccion>
+
+
