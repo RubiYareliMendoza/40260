@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alumnos>
+<alumno xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="alumno.xsd">
+    <nombre>Eren</nombre>
+    <nacimiento>845-03-30</nacimiento>
+</alumno>
+<alumno xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="alumno.xsd">
+    <nombre>Armin</nombre>
+    <nacimiento>845-11-03</nacimiento>
+</alumno>
+
+</alumnos>
